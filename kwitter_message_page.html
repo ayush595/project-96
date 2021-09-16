@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>messaging</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button class="glyphicon glyphicon-log-out btn btn-danger" id="logout" onclick="logout()">Logout</button>
+        <center>
+        <h1>Kwitter <sup> <img src="75320228-chat-room-logo-template-design-vector-emblem-design-concept-creative-symbol-icon.jpg" id="headerimg">
+        </sup></h1>
+   <div id="output">
+   
+   
+   </div>    
+   
+        </center>
+   
+       </div>
+       <div id="msg-div">
+   <h3>Send:</h3>
+   <br>
+   <input type="text" id="msg" class="form-control" placeholder="ur message">
+   <br>
+   <br>
+   <button id="send" onclick="send()">SEND!!</button>
+       </div>
+       <script src="kwitter_message_page.js"></script>
+</body>
+</html>

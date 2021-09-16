@@ -1,0 +1,72 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+}
+
+#quitter , #rrooom
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+#headerimg , #room
+{
+	width: 50px;
+	margin-left: -15px;
+	
+}
+#login-div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+	padding-bottom: 20px;
+}
+
+#logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+#roomname
+{
+width: min-content;
+}
+#addroom
+{
+    width: 50%;
+    background-color: #0a73aa;
+    color: black;
+    font-weight: bolder;
+    width: min-content;
+}
+#msg-div
+{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+	text-align: center;
+}
+#send
+{
+	width: 20%;
+	border-radius: 20px;
+	background-color: #79b3f4;
+	margin-bottom: 20px;
+	padding: 10px;
+	color: darkmagenta;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#msg
+{
+width: 80%;
+margin: 3px auto;
+}
